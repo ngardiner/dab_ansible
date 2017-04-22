@@ -1,0 +1,5 @@
+---
+- hosts: zoneminder
+  roles:
+    - standard_ubuntu
+    - zoneminder

@@ -1,0 +1,9 @@
+---
+- name: Copy configuration files
+  copy:
+    src: "{{ item }}"
+    dest: /{{ item }}
+  with_items:
+    - etc/zm/zm.conf
+  notify:
+    - restart zoneminder
