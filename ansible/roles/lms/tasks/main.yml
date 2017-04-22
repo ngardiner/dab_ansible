@@ -1,0 +1,7 @@
+---
+- name: Install Prerequisite Packages
+  apt:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - perl
