@@ -1,4 +1,9 @@
 ---
+- hosts: ansible
+  roles:
+    - standard_ubuntu
+    - ansible
+
 - hosts: zoneminder
   roles:
     - standard_ubuntu
