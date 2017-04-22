@@ -1,0 +1,8 @@
+---
+- name: Update APT Package List
+  apt:
+    update_cache=yes
+    cache_valid_time=3600
+
+- name: Upgrade APT Packages
+  apt: upgrade=yes
