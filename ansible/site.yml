@@ -9,6 +9,11 @@
     - standard_ubuntu
     - lms
 
+- hosts: mariadb
+  roles:
+    - standard_ubuntu
+    - mariadb
+
 - hosts: zoneminder
   roles:
     - standard_ubuntu
