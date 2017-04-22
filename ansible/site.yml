@@ -4,6 +4,11 @@
     - standard_ubuntu
     - ansible
 
+- hosts: hass
+  roles:
+    - standard_debian
+    - hass
+
 - hosts: lms
   roles:
     - standard_ubuntu
