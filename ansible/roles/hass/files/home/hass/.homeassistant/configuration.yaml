@@ -52,13 +52,10 @@ sensor:
 tts:
   platform: google
 
-# beelink-tv1
+# beelink-tv1 and tv2
 media_player:
   - platform: kodi
     host: 192.168.28.74
-
-# beelink-tv2
-media_player:
   - platform: kodi
     host: 192.168.28.75
 
